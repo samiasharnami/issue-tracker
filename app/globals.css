@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255; /* Black text color */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0; /* White text color */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb)); /* Set text color */
+  padding: 1rem;
+}
+
+@layer base {
+  h1 {
+    @apply font-bold text-2xl;
+  }
+}
+

@@ -52,8 +52,8 @@ const NewIssuesPage = () => {
           <ErrorMessage>{errors.description?.message}</ErrorMessage>
 
           <div className='flex justify-between'>
-            <Button>Submit New Issue</Button>
             <Button><Link href='/issues'>Back</Link></Button>
+            <Button>Submit New Issue</Button>
 
           </div>
           
